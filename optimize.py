@@ -22,7 +22,7 @@ if __name__ == "__main__":
 
 	# Plots the function and minimum
 	plt.plot(xspace, func(xspace), label='f(x)')
-	plt.scatter(s.x[0], func(s.x[0]), color='r', label=f'minimum (x = {func(s.x[0]):.2f}))')
+	plt.scatter(s.x[0], func(s.x[0]), color='r', label=f'minimum (x = {s.x[0]:.2f},y = {func(s.x[0]):.2f}))')
 	plt.xlabel('x')
 	plt.ylabel('f(x)')
 	plt.xlim(-10,0)
