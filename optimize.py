@@ -1,3 +1,10 @@
+"""
+Name: Craig Brooks
+PHSX 815 Spring 2023
+HW # 9
+Due Date 3/24/2023
+This code optimizes a pre-defined function using the minimize method from scipy.optimize
+"""
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
